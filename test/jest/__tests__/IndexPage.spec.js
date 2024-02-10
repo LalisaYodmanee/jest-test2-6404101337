@@ -1,4 +1,3 @@
-// IndexPage.spec.js
 import IndexPage from 'src/pages/IndexPage.vue'
 import { shallowMount } from '@vue/test-utils'
 
@@ -12,7 +11,7 @@ describe('IndexPage', () => {
   })
 
   it('check text content to be as defined in variable', () => {
-    const wrapper = shallowMount(HtmlComponent, {
+    const wrapper = shallowMount(IndexPage, {
       data () {
         return {
           title: 'I love Vue.'
@@ -22,7 +21,5 @@ describe('IndexPage', () => {
     let header = wrapper.find('.htmlClass h1')
     expect(header.text()).toBe('I love Vue.')
   })
-
-
 })
 
