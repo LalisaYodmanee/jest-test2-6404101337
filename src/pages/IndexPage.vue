@@ -11,7 +11,7 @@ export default {
   name: 'HtmlComponent',
   data() {
     return {
-      title: 'Vue is not awesome.',
+      title: 'Vue is awesome.',
     }
   },
 }
