@@ -18,7 +18,7 @@ export default {
   name: 'HtmlComponent',
   data() {
     return {
-      title: 'Vue is awesome.',
+      title: 'Lalisa Yodmanee 6404101337',
       firstValue:0,
       secondValue:0,
       answerVulue:0
